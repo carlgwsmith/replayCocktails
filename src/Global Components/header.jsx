@@ -19,10 +19,10 @@ useEffect(() => {
 }, [location]);
 
 
-const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-emerald text-snow border-black border-b-[3px] duration-300'
+const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-[#78f0aa] text-snow border-gunmetal border-b-[3px] duration-300'
 
     return(
-        <div className="flex justify-between items-center w-full bg-black border-b-1 py-8 px-10 border-jet h-12 text-snow">
+        <div className="flex justify-between items-center w-full bg-gunmetal border-b-1 py-8 px-10 border-gunmetal h-12 text-alice">
                 <div className={logoEffect}>Replay Cocktails</div>
                 <ul className="hidden md:flex text-[16px] ease-in-out duration-500">
                     <li className={linkStyle}> 
