@@ -5,7 +5,7 @@ import Header from "../Global Components/header";
 export default function Root(){
 
     return(
-        <div className="flex flex-col h-screen justify-between">
+        <div className="flex flex-col h-full justify-between">
         <Header/>
         <Outlet/>
         <Footer/>

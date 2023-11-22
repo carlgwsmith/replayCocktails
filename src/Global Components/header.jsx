@@ -19,15 +19,21 @@ useEffect(() => {
 }, [location]);
 
 
-const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-[#78f0aa] text-snow border-gunmetal border-b-[3px] duration-300'
+const linkStyle= 'm-4 text-[14px] hover:border-gunmetal border-snow border-b-[3px] hover:border-[#646cff] duration-300 uppercase'
+const linkText= "text-[#534c57] hover:text-shadow-pop-bl hover:text-[#646cff] "
 
     return(
-        <div className="flex justify-between items-center w-full bg-gunmetal border-b-1 py-8 px-10 border-gunmetal h-12 text-alice">
-                <div className={logoEffect}>Replay Cocktails</div>
+        <div className="flex justify-between items-center w-full bg-snow border-b-1 py-10 px-10 border-snow h-12 text-alice shadow-md mb-[4px]">
+                <div className={logoEffect}><a href="/"><img src="/Images/logo_dark.png"  style={{'width':'200px'}}/></a></div>
                 <ul className="hidden md:flex text-[16px] ease-in-out duration-500">
                     <li className={linkStyle}> 
-                        <NavLink to={`/`}>
+                        <NavLink to={`/`} className={linkText}>
                             Home
+                        </NavLink>
+                    </li>
+                    <li className={linkStyle}> 
+                        <NavLink to={`/`} className={linkText}>
+                            Where to buy
                         </NavLink>
                     </li>
                 </ul>
@@ -44,6 +50,9 @@ const linkStyle= 'm-4 text-[14px] hover:text-shadow-pop-bl hover:border-[#78f0aa
                     <ul className="uppercase">
                         <li className="p-4">
                         <NavLink to={`/home`}>Home</NavLink>
+                        </li>
+                        <li className="p-4">
+                        <NavLink to={`/wheretobuy`}>Where to Buy</NavLink>
                         </li>
                 </ul>
                 </div>

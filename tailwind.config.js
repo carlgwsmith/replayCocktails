@@ -32,6 +32,9 @@ export default {
         'emerald': '#23CE6B',
         'snow': '#FFFAFB',
         'background-light':'#FFFCF4',
+      },
+      backgroundImage: {
+        'hero': "url('../public/images/bg.jpg')",
       }
     },
   },

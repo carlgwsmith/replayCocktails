@@ -1,5 +1,9 @@
+import CallToAction from "../Home Components/CTA";
+import Hero from "../Home Components/Hero";
+
 export default function Home (){
     return(<>
-    <h1>home</h1>
+    <Hero/>
+    <CallToAction/>
     </>)
 }
