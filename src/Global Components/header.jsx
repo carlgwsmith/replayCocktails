@@ -36,6 +36,11 @@ const linkText= "text-[#534c57] hover:text-shadow-pop-bl hover:text-[#646cff] "
                             Where to buy
                         </NavLink>
                     </li>
+                    <li className={linkStyle}> 
+                        <NavLink to={`/`} className={linkText}>
+                            Canned Cocktails
+                        </NavLink>
+                    </li>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
                     <HiMenu size={20} navbarOpen={true}/>
@@ -53,6 +58,9 @@ const linkText= "text-[#534c57] hover:text-shadow-pop-bl hover:text-[#646cff] "
                         </li>
                         <li className="p-4">
                         <NavLink to={`/wheretobuy`}>Where to Buy</NavLink>
+                        </li>
+                        <li className="p-4">
+                        <NavLink to={`/wheretobuy`}>Canned Cocktails</NavLink>
                         </li>
                 </ul>
                 </div>
