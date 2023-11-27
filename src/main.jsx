@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+// import App from './App.jsx'
 import Home from './Pages/Home.jsx'
 import Root from './Routes/root.jsx'
 import './index.css'
@@ -10,6 +10,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import WhereToBuy from './Pages/WhereToBuy.jsx'
 
 const routes = [
   {path:'/*',
@@ -31,6 +32,11 @@ element:<Home/>},
       {
         path:'/cocktails',
         element: <CannedCocktails/>
+      }
+      ,
+      {
+        path:'/wheretobuy',
+        element: <WhereToBuy/>
       }
     ]
   },

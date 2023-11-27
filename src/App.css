@@ -1,0 +1,15 @@
+.backdrop{
+    top: 0;
+    position: fixed;
+    background-color: #1a1a1af0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+  }
+  .ageVerify{
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    background-color: #FFFAFB;
+    border-radius:8px;
+  }
