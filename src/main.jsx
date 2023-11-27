@@ -4,6 +4,7 @@ import App from './App.jsx'
 import Home from './Pages/Home.jsx'
 import Root from './Routes/root.jsx'
 import './index.css'
+import CannedCocktails from './Pages/CannedCocktails.jsx'
 
 import {
   createBrowserRouter,
@@ -26,6 +27,10 @@ element:<Home/>},
       {
         path:'/home',
         element: <Home/>
+      },
+      {
+        path:'/cocktails',
+        element: <CannedCocktails/>
       }
     ]
   },

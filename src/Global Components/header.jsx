@@ -32,12 +32,12 @@ const linkText= "text-[#534c57] hover:text-shadow-pop-bl hover:text-[#646cff] "
                         </NavLink>
                     </li>
                     <li className={linkStyle}> 
-                        <NavLink to={`/`} className={linkText}>
+                        <NavLink to={`/wheretobuy`} className={linkText}>
                             Where to buy
                         </NavLink>
                     </li>
                     <li className={linkStyle}> 
-                        <NavLink to={`/`} className={linkText}>
+                        <NavLink to={`/cocktails`} className={linkText}>
                             Canned Cocktails
                         </NavLink>
                     </li>
@@ -60,7 +60,7 @@ const linkText= "text-[#534c57] hover:text-shadow-pop-bl hover:text-[#646cff] "
                         <NavLink to={`/wheretobuy`}>Where to Buy</NavLink>
                         </li>
                         <li className="p-4">
-                        <NavLink to={`/wheretobuy`}>Canned Cocktails</NavLink>
+                        <NavLink to={`/cocktails`}>Canned Cocktails</NavLink>
                         </li>
                 </ul>
                 </div>

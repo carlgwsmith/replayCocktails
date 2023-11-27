@@ -40,6 +40,12 @@ h1 {
   height:200px;
   margin-bottom: 40px;
 }
+.cockCardImage{
+  display:flex;justify-content:center;align-items:center;height:300px;
+}
+.cockCardDesc{
+  height:140px;
+}
 
 button {
   border-radius: 8px;
@@ -74,7 +80,7 @@ padding: 0 80px;
 }
 .heroBg{
   background-image: url('./Images/heroBg.jpg');
-  background-size: 600px;
+  background-size: 800px;
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y:center;
