@@ -84,7 +84,7 @@ padding: 0 80px;
   background-repeat: no-repeat;
 }
 .heroBg{
-  background-image: url('./Images/heroBg.jpg');
+  background-image: url('/Images/heroBg.jpg');
   background-size: 800px;
   background-repeat: no-repeat;
   background-position-x: right;
