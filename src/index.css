@@ -84,11 +84,12 @@ padding: 0 80px;
   background-repeat: no-repeat;
 }
 .heroBg{
-  background-image: url('/Images/heroBg.jpg');
+  /* background-image: url('/Images/heroBg.jpg'); */
+  background-image: url('/Images/cocktailCheers.jpg');
   background-size: 800px;
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y:-340px;
+  background-position-y:-400px;
 }
 .backdrop{
   top: 0;
