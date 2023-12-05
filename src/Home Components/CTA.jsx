@@ -4,7 +4,7 @@ export default function CallToAction (){
     return(<>
     <div className="grid grid-cols-12 py-12">
         <div className="col-span-12">
-        <h2 className="text-center xs:text-[36px] md:text-[42px] uppercase text-gunmetal font-bold">6 Inspiring Flavors</h2>
+        <h2 className="text-center xs:text-[36px] md:text-[42px] uppercase text-gunmetal font-bold">4 Inspiring Flavors</h2>
         <img src="/Images/cansforbanner.webp" width="100%"/>
         </div>
         <div className="col-span-12 text-center">
