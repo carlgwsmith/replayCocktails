@@ -9,7 +9,7 @@ export default function CallToAction (){
         </div>
         <div className="col-span-12 text-center">
             <Link to="/cocktails">
-        <button className="py-3 px-6 rounded-md border-1 border-snow uppercase hover:text-[#646cff] hover:bg-opacity-20" >Check out our canned cocktails</button>
+            <a href="/wheretobuy" className="py-3 text-white bg-gunmetal border-2 hover:border-[#646cff] px-6 rounded-md border-1 border-snow uppercase hover:text-[#9196ec]">Check out our canned cocktails</a>
         </Link>
         </div>
     </div>
