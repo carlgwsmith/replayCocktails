@@ -4,7 +4,7 @@ export default function Hero(){
         <h1>Replay Cocktails</h1>
     </div> */}
     <div className="grid grid-cols-12 h-[460px] heroBg">
-        <div className="xs:col-span-10 xs:px-[60px] md:col-span-8 clipBg">
+        <div className="xs:col-span-10 xs:px-[60px] md:col-span-7 clipBg">
             <div className="alignMiddle">
             <h2 className="xs:text-[32px] xs:leading-[32px] sm:text-[46px] sm:leading-[46px] md:text-[68px] md:leading-[58px]">A COCKTAIL<br/> <span className="font-bold">AS BOLD AS YOU</span></h2>
             </div>

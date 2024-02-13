@@ -19,8 +19,8 @@ useEffect(() => {
 }, [location]);
 
 
-const linkStyle= 'm-4 text-[14px] hover:border-gunmetal border-snow border-b-[3px] hover:border-[#646cff] duration-300 uppercase'
-const linkText= "text-[#534c57] hover:text-shadow-pop-bl hover:text-[#646cff] "
+const linkStyle= 'm-4 text-[14px] hover:border-gunmetal border-snow border-b-[3px] hover:border-[#8f8f91] duration-300 uppercase'
+const linkText= "text-[#534c57] hover:text-shadow-pop-bl hover:text-[#8f8f91] "
 
     return(
         <div className="flex justify-between items-center w-full bg-snow border-b-1 py-10 px-10 border-snow h-12 text-alice shadow-md mb-[4px]">

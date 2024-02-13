@@ -73,10 +73,12 @@ button:focus-visible {
 
 .clipBg{
   clip-path: polygon(100% 0, 76% 100%, 44% 100%, 0 100%, 0 0);
-  background: rgb(2,0,36);
-background: linear-gradient(114deg, rgb(6, 0, 36) 50%, rgb(9, 73, 121)95%);
+  /* background: rgb(2,0,36);
+background: linear-gradient(114deg, rgb(6, 0, 36) 50%, rgb(9, 73, 121)95%); */
 /* display:flex;justify-content:left;align-items:center; */
 padding: 0 80px;
+background-color: #272d2d;
+background-image: url('Images/subtle-grunge.png');
 }
 .ctaBg{
   background-image: url('/Images/cansforbanner.webp');
@@ -85,11 +87,10 @@ padding: 0 80px;
 }
 .heroBg{
   /* background-image: url('/Images/heroBg.jpg'); */
-  background-image: url('/Images/cocktailCheers.jpg');
-  background-size: 800px;
+  background-image: url('/Images/cans/heroBg.jpg');
+  background-size: 57%;
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y:-400px;
 }
 .backdrop{
   top: 0;

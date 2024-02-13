@@ -13,3 +13,6 @@
     background-color: #FFFAFB;
     border-radius:8px;
   }
+  .carousel .slide img{
+    width: auto !important;
+  }
