@@ -37,7 +37,7 @@ h1 {
   display:flex;
   justify-content:left;
   align-items:flex-end;
-  height:240px;
+  height:220px;
   margin-bottom: 40px;
 }
 .cockCardImage{
@@ -88,7 +88,7 @@ background-image: url('Images/subtle-grunge.png');
 .heroBg{
   /* background-image: url('/Images/heroBg.jpg'); */
   background-image: url('/Images/cans/heroBg.jpg');
-  background-size: 57%;
+  background-size: 56%;
   background-repeat: no-repeat;
   background-position-x: right;
 }
@@ -106,6 +106,49 @@ background-image: url('Images/subtle-grunge.png');
   margin: auto;
   background-color: #FFFAFB;
   border-radius:8px;
+}
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+}
+.cta-home > .cta-btn {
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px){
+  .footer{
+    position: fixed;
+  }
+  .heroBg{
+    background-size: 68%;
+    height: 340px;
+  }
+  .alignMiddle{
+    height: 215px;
+  }
+}
+
+@media screen and (max-width: 431px){
+  .clipBg{
+    padding-left: 30px;
+  }
+  .heroBg{
+    background-size: 82%;
+    height: 240px;
+    background-position-x: 160px;
+  }
+  .alignMiddle{
+    height: 135px;
+  }
+  .cta-home{
+    margin-bottom: 30px;
+  }
+  .cta-home > .cta-btn {
+    margin-top: 30px;
+  }
 }
 
 @media (prefers-color-scheme: light) {
