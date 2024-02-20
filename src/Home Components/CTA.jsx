@@ -1,11 +1,16 @@
 import { Link } from "react-router-dom";
+import CannedCocktails from "../Pages/CannedCocktails";
 
 export default function CallToAction (){
     return(<>
     <div className="grid grid-cols-12 py-12 cta-home">
-        <div className="col-span-12">
+        <div className="col-span-12 pt-8">
         <h2 className="text-center xs:text-[28px] sm:text-[32px] md:text-[42px] uppercase text-gunmetal font-bold">4 Inspiring Flavors</h2>
-        <img src="/Images/cansforbanner.webp" width="100%"/>
+        <p className="text-gunmetal m-auto text-center px-40 py-8  xs:text-[16px] sm:text-[18px] md:text-[22px]">Our drinks were born in the Spring of 2020, when live music stopped.   
+We looked past the empty stages and dreamt up an idea to share the feeling of seeing
+your favorite band play your favorite song.
+Our drink names honor our favorite local and regional bands.</p>
+        <CannedCocktails/>
         </div>
         <div className="col-span-12 text-center cta-btn">
             <Link to="/cocktails">
