@@ -1,7 +1,36 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+import Modal from 'react-modal';
+import { useState } from "react";
 
 export default function CocktailCard(props){
+    const customStyles = {
+        content: {
+            width: '50%',
+          top: '50%',
+          left: '50%',
+          right: 'auto',
+          padding: '40px',
+          color: '#333',
+          bottom: 'auto',
+          marginRight: '-50%',
+          transform: 'translate(-50%, -50%)',
+        },
+      };
+    const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    subtitle.style.color = '#f00';
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
     return(<>
     
     <div className="grid grid-cols-6 mb-10 bg-white p-4 rounded-md">
@@ -19,10 +48,21 @@ export default function CocktailCard(props){
             <h2 className="text-[36px] font-bold mb-4 mt-4">{props.name}</h2>
             <div className="cockCardDesc">
                 <p className="mb-4 mt-4">{props.desc}</p>
+                <p className="text-center underline" onClick={openModal}>Read More</p>
             </div>
             <div className="py-3 px-3 rounded-md border-2 border-gray-700 uppercase">
                 <p>{props.abv}</p></div>
         </div>
     </div>
+    <Modal
+        isOpen={modalIsOpen}
+        onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        style={customStyles}
+        contentLabel="Example Modal"
+      >
+        <div>{props.modalContent}</div>
+        <button onClick={closeModal} className="float-right text-white mt-10">close</button>
+      </Modal>
     </>)
 }
