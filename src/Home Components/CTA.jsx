@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import CannedCocktails from "../Pages/CannedCocktails";
+import Cocktails from "../Global Components/cocktails";
 
 export default function CallToAction (){
     return(<>
@@ -10,9 +10,9 @@ export default function CallToAction (){
 We looked past the empty stages and dreamt up an idea to share the feeling of seeing
 your favorite band play your favorite song.
 Our drink names honor our favorite local and regional bands.</p>
-        <CannedCocktails/>
+        <Cocktails/>
         </div>
-        <div className="col-span-12 text-center cta-btn">
+        <div className="col-span-12 text-center cta-btn mb-20">
             <Link to="/cocktails">
             <a className="py-3 text-white bg-gunmetal border-2 hover:border-[#646cff] px-6 rounded-md border-1 border-snow uppercase hover:text-[#9196ec]">Check out our canned cocktails</a>
         </Link>
