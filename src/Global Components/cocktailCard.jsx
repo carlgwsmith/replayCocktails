@@ -15,7 +15,11 @@ export default function CocktailCard(props){
           bottom: 'auto',
           marginRight: '-50%',
           transform: 'translate(-50%, -50%)',
+          backgroundColor: 'rgba(255, 255, 255, 1)'
         },
+        overlay:{
+            backgroundColor: '#292929d7'
+        }
       };
     const [modalIsOpen, setIsOpen] = useState(false);
 
