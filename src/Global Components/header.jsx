@@ -43,7 +43,7 @@ const linkText= "text-[#534c57] hover:text-shadow-pop-bl hover:text-[#8f8f91] "
                     </li>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
-                    <HiMenu size={20} navbarOpen={true}/>
+                    <HiMenu size={20} navbarOpen={true} style={{color:'#333'}}/>
                 </div>
                 <div className={navbarOpen ? 'fixed left-0 top-0 w-[100%] border-right border-r-gray-900 h-full bg-gunmetal ease-in-out duration-500 z-[99999]' : 'z-[99999] bg-light fixed left-[-100%] ease-in-out duration-500'}>
                     <div className="grid grid-cols-6">

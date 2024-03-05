@@ -41,10 +41,10 @@ h1 {
   margin-bottom: 40px;
 }
 .cockCardImage{
-  display:flex;justify-content:center;align-items:center;height:300px;
+  display:flex;justify-content:center;align-items:center;height:360px;
 }
 .cockCardDesc{
-  height:120px;
+  height:140px;
 }
 .verticalMiddle{
   display: flex;

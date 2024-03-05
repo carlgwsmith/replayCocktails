@@ -39,15 +39,15 @@ export default function CocktailCard(props){
     
     <div className="grid grid-cols-6 mb-10 bg-white p-4 rounded-md">
         <div className="col-span-6 text-center text-gunmetal">
-            <div className="h-300 cockCardImage">
-            {/* <Carousel autoPlay={true} infiniteLoop={true} interval={2000} showStatus={false} showArrows={false} showThumbs={false} showIndicators={false}> */}
-                <div>
-                    <img src={props.img} style={{height:'240px'}}/>
-                </div>
-                {/* <div>
-                    <img src={props.img2}/>
-                </div> */}
-            {/* </Carousel> */}
+            <div className="cockCardImage">
+            <Carousel autoPlay={true} infiniteLoop={true} interval={2000} showStatus={false} showArrows={false} showThumbs={false} showIndicators={false} stopOnHover={false}>
+                {/* <div> */}
+                    <img src={props.img2} style={{'height': '324px', 'width': '161px'}}/>
+                {/* </div>
+                <div> */}
+                    <img src={props.img} style={{'height': '324px', 'width': '161px'}}/>
+                {/* </div> */}
+             </Carousel>
             </div>
             <h2 className="text-[36px] font-bold mb-4 mt-4">{props.name}</h2>
             <div className="cockCardDesc">
