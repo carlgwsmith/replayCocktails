@@ -118,6 +118,14 @@ background-image: url('Images/subtle-grunge.png');
 .cta-home > .cta-btn {
   margin-top: 30px;
 }
+.map-overlay {
+  background:transparent;
+  position:relative;
+  height:480px; /* your iframe width */
+  width:100%; /* your iframe height */
+  top:480px; /* your iframe height */
+  margin-top:-480px; /* your iframe height */
+  }
 @media screen and (max-width: 768px){
   .footer{
     position: fixed;
