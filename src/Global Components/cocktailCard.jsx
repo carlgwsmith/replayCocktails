@@ -52,7 +52,7 @@ export default function CocktailCard(props){
             <h2 className="text-[36px] font-bold mb-4 mt-4">{props.name}</h2>
             <div className="cockCardDesc">
                 <p className="mb-4 mt-4">{props.desc}</p>
-                <p className="text-center underline" onClick={openModal}>Read More</p>
+                <p className="text-center underline hover:underline hover:cursor-pointer" onClick={openModal}>Read More</p>
             </div>
             <div className="py-3 px-3 rounded-md border-2 border-gray-700 uppercase">
                 <p>{props.abv}</p></div>
