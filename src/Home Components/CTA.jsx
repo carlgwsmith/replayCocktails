@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Cocktails from "../Global Components/cocktails";
+import MobileSlider from "../Global Components/mobileSlider";
 
 export default function CallToAction (){
     return(<>
@@ -10,7 +11,12 @@ export default function CallToAction (){
 We looked past the empty stages and dreamt up an idea to share the feeling of seeing
 your favorite band play your favorite song.
 Our drink names honor our favorite local and regional bands.</p>
+<div className="hideOnMobile">
         <Cocktails/>
+        </div>
+        <div className="showOnMobile">
+            <MobileSlider/>
+        </div>
         </div>
         <div className="col-span-12 text-center cta-btn mb-20">
             <Link to="/cocktails">

@@ -126,6 +126,24 @@ background-image: url('/Images/subtle-grunge.png');
   top:480px; /* your iframe height */
   margin-top:-480px; /* your iframe height */
   }
+.hideOnMobile{
+  display:block !important;
+}
+.showOnMobile{
+  display: none !important;
+}
+.abv-number{
+  font-size: 14px;
+  padding: 8px;
+  width: 100px;
+  margin-top: 20px;
+  background-color: antiquewhite;
+  font-weight: 900;
+  bottom: 206px;
+  margin:auto;
+  z-index: 99;
+  transform: rotate(8deg);
+}
 @media screen and (max-width: 768px){
   .footer{
     position: fixed;
@@ -140,8 +158,14 @@ background-image: url('/Images/subtle-grunge.png');
 }
 
 @media screen and (max-width: 431px){
+  .hideOnMobile{
+    display:none !important;
+  }
+  .showOnMobile{
+    display: block !important;
+  }
   .clipBg{
-    padding: 0px 34px 40px 34px !important;
+    padding: 0px 40px 40px 34px !important;
   }
   .heroBg{
     background-size: 100%;
