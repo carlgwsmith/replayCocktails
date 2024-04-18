@@ -158,6 +158,12 @@ background-image: url('/Images/subtle-grunge.png');
 }
 
 @media screen and (max-width: 431px){
+  .ReactModal__Content.ReactModal__Content--after-open {
+    width: 80% !important;
+}
+  .namemarkLogo{
+    width: 90% !important;
+  }
   .whereToBuy{
     padding: 0px !important;
     margin: 20px !important;
