@@ -161,11 +161,14 @@ background-image: url('/Images/subtle-grunge.png');
   .alignMiddle{
     height: 215px;
   }
+  .ReactModal__Content.ReactModal__Content--after-open {
+    width: 75% !important;
+}
 }
 
 @media screen and (max-width: 431px){
   .ReactModal__Content.ReactModal__Content--after-open {
-    width: 80% !important;
+    width: 90% !important;
 }
   .namemarkLogo{
     width: 90% !important;
