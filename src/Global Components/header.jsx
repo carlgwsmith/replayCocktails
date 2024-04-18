@@ -45,9 +45,9 @@ const linkText= "text-[#534c57] hover:text-shadow-pop-bl hover:text-[#8f8f91] "
                 <div onClick={handleNav} className='block md:hidden'>
                     <HiMenu size={20} navbarOpen={true} style={{color:'#333'}}/>
                 </div>
-                <div className={navbarOpen ? 'fixed left-0 top-0 w-[100%] border-right border-r-gray-900 h-full bg-gunmetal ease-in-out duration-500 z-[99999]' : 'z-[99999] bg-light fixed left-[-100%] ease-in-out duration-500'}>
+                <div className={navbarOpen ? 'fixed left-0 top-0 w-[100%] border-right border-r-gray-900 h-full bg-zinc-900 ease-in-out duration-500 z-[99999]' : 'z-[99999] bg-light fixed left-[-100%] ease-in-out duration-500'}>
                     <div className="grid grid-cols-6">
-                    <div className="col-span-3 text-xl font-bold tracking-tighter m-4 w-[75%] inline-block">Replay Cocktails</div>
+                    <div className="col-span-3 text-xl font-bold tracking-tighter m-4 w-[75%] inline-block"><a href="/"><img src="/Images/logo.png"  style={{'width':'200px'}}/></a></div>
                     <div className="col-span-3 p-4 inline-block">
                 <MdClose size={20} navbarOpen={false} onClick={handleNav} className="float-right"/>
                 </div>
