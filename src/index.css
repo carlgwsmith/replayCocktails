@@ -145,6 +145,12 @@ background-image: url('/Images/subtle-grunge.png');
   transform: rotate(8deg);
 }
 @media screen and (max-width: 768px){
+  .hideOnMobile{
+    display: none !important;
+  }
+  .showOnMobile{
+    display: block !important;
+  }
   .footer{
     position: fixed;
   }
