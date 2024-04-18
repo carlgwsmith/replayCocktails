@@ -43,7 +43,7 @@ export default function CocktailCard(props){
       </div>
         <div className="col-span-6 text-center text-gunmetal">
             <div className="cockCardImage">
-            <Carousel autoPlay={true} infiniteLoop={true} interval={2000} showStatus={false} showArrows={false} showThumbs={false} showIndicators={false} stopOnHover={false}>
+            <Carousel autoPlay={true} infiniteLoop={true} interval={2000} showStatus={false} showArrows={false} showThumbs={false} showIndicators={false} stopOnHover={false} swipeable={false}>
                 {/* <div> */}
                     <img src={props.img2} style={{'height': '324px', 'width': '161px'}}/>
                 {/* </div>
