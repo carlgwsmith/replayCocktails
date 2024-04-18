@@ -140,6 +140,14 @@ background-image: url('/Images/subtle-grunge.png');
 }
 
 @media screen and (max-width: 431px){
+  .whereToBuy{
+    padding: 0px !important;
+    margin: 20px !important;
+    height: 100% !important;
+  }
+  .locationMap{
+    height: 600px !important;
+  }
   .clipBg{
     padding-left: 30px;
   }
