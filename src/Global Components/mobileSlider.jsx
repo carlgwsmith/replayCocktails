@@ -46,7 +46,7 @@ export default function MobileSlider(){
         <div className="col-span-12 text-center text-gunmetal">
             <Carousel autoPlay={true} infiniteLoop={true} interval={2000} showStatus={false} showArrows={false} showThumbs={false} showIndicators={false} stopOnHover={false}>
             <CocktailCard img="/Images/artwork/h300/BELTANE_FRONT.jpg" img2="/Images/artwork/h300/BELTANE_SIDE.jpg" name="Beltane" desc="Cucumber infused Vodka with Gin, Lime, and Mint. Expertly Balanced." abv="8% ABV" modalContent={<Beltane/>}/>
-            <CocktailCard img="/Images/artwork/h300/ROSELINE_FRONT.jpg" img2="/Images/artwork/h300/ROSELINE_SIDE.jpg" name="Roseline" desc="Our Version of the Grapefruit Paloma, with Vodka, a hint of Reposado, Grapefruit & Lime." abv="8% ABV" modalContent={<Roseline/>}/>
+            <CocktailCard img="/Images/artwork/h300/ROSELINE_FRONT.jpg" img2="/Images/artwork/h300/ROSELINE_SIDE.jpg" name="Roseline" desc="Grapefruit Paloma, with Vodka, a hint of Reposado, Grapefruit & Lime." abv="8% ABV" modalContent={<Roseline/>}/>
             <CocktailCard img="/Images/artwork/h300/NANCYBOY_FRONT.jpg" img2="/Images/artwork/h300/NANCYBOY_SIDE.jpg"  name="Nancy Boy" desc="Brewed Black Tea with Vodka and Lemon. Not too sweet or too tart." abv="8% ABV" modalContent={<NancyBoy/>}/>
             <CocktailCard img="/Images/artwork/h300/VIBRALUX_FRONT.jpg" img2="/Images/artwork/h300/VIBRALUX_SIDE.jpg"  name="Vibralux" desc="London Dry Gin with Strawberry, Basil & Lime. Basil is the 'it' factor." abv="8% ABV" modalContent={<Vibralux/>}/>
              </Carousel>

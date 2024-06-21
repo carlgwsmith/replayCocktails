@@ -14,10 +14,11 @@ export default function locationMap(){
       function mapClick (){
         document.querySelector('.map-overlay').style.pointerEvents='none'
       }
+
     
 return(
     <>
-     <div>
+     <div className="overflow-hidden">
      <div className="map-overlay" onClick={mapClick}></div>
       <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1su47VXkCdBAoFAoEar-85NqyI9SfMo0&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
     </div>

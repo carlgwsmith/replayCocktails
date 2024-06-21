@@ -12,7 +12,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #FFFAFB;
+  background-color: #f5f4f4;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -144,7 +144,13 @@ background-image: url('/Images/subtle-grunge.png');
   z-index: 99;
   transform: rotate(8deg);
 }
+.nameMarkSize{
+  width: 70%;
+}
 @media screen and (max-width: 768px){
+  .nameMarkSize{
+    width: 90%;
+  }
   .footer{
     position: fixed;
   }
@@ -181,6 +187,11 @@ background-image: url('/Images/subtle-grunge.png');
   }
   .cta-home > .cta-btn {
     margin-top: 30px;
+  }
+  .ReactModal__Content.ReactModal__Content--after-open{
+    width: 90% !important;
+    position: fixed;
+    top: 10;
   }
 }
 
