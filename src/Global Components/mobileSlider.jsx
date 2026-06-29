@@ -1,5 +1,9 @@
 import CocktailCard from "./cocktailCard"
 import Beltane from '../Pages/Beltane'
+import cucumberMint from '../assets/Images/2026/Cucumber mint cocktail in focus.png'
+import grapefruitPaloma from '../assets/Images/2026/Replay Lounge grapefruit paloma cocktail can.png'
+import strawberryBasil from '../assets/Images/2026/Replay Lounge Strawberry Basil Cocktail can.png'
+import peachTea from '../assets/Images/2026/Replay Lounge Peach Tea Cocktail can.png'
 import Roseline from '../Pages/Roseline'
 import NancyBoy from '../Pages/NancyBoy'
 import Vibralux from '../Pages/Vibralux'
@@ -45,10 +49,10 @@ export default function MobileSlider(){
     <div className="grid grid-cols-12 mb-10 bg-white p-4 rounded-md">
         <div className="col-span-12 text-center text-gunmetal">
             <Carousel autoPlay={true} infiniteLoop={true} interval={4000} showStatus={false} showArrows={false} showThumbs={false} showIndicators={false} stopOnHover={false}>
-            <CocktailCard img="/Images/artwork/h300/BELTANE_FRONT.jpg" img2="/Images/artwork/h300/BELTANE_SIDE.jpg" name="Beltane" desc="Cucumber infused Vodka with Gin, Lime, and Mint. Expertly Balanced." abv="8% ABV" modalContent={<Beltane/>}/>
-            <CocktailCard img="/Images/artwork/h300/ROSELINE_FRONT.jpg" img2="/Images/artwork/h300/ROSELINE_SIDE.jpg" name="Roseline" desc="Our Version of the Grapefruit Paloma, with Vodka, a hint of Reposado, Grapefruit & Lime." abv="8% ABV" modalContent={<Roseline/>}/>
-            <CocktailCard img="/Images/artwork/h300/NANCYBOY_FRONT.jpg" img2="/Images/artwork/h300/NANCYBOY_SIDE.jpg"  name="Nancy Boy" desc="Brewed Black Tea with Vodka and Lemon. Not too sweet or too tart." abv="8% ABV" modalContent={<NancyBoy/>}/>
-            <CocktailCard img="/Images/artwork/h300/VIBRALUX_FRONT.jpg" img2="/Images/artwork/h300/VIBRALUX_SIDE.jpg"  name="Vibralux" desc="London Dry Gin with Strawberry, Basil & Lime. Basil is the 'it' factor." abv="8% ABV" modalContent={<Vibralux/>}/>
+            <CocktailCard img={cucumberMint} img2={cucumberMint} name="Cucumber Mint" desc="Cucumber infused Vodka with Gin, Lime, and Mint. Expertly Balanced." abv="8% ABV" modalContent={<Beltane/>}/>
+            <CocktailCard img={grapefruitPaloma} img2={grapefruitPaloma} name="Grapefruit Paloma" desc="Our Version of the Grapefruit Paloma, with Vodka, a hint of Reposado, Grapefruit & Lime." abv="8% ABV" modalContent={<Roseline/>}/>
+            <CocktailCard img={peachTea} img2={peachTea}  name="Peach Tea" desc="Brewed Black Tea with Vodka and Lemon. Not too sweet or too tart." abv="8% ABV" modalContent={<NancyBoy/>}/>
+            <CocktailCard img={strawberryBasil} img2={strawberryBasil}  name="Strawberry Basil" desc="London Dry Gin with Strawberry, Basil & Lime. Basil is the 'it' factor." abv="8% ABV" modalContent={<Vibralux/>}/>
              </Carousel>
         </div>
     </div>

@@ -36,9 +36,7 @@ h1 {
 .alignMiddle{
   display:flex;
   justify-content:left;
-  align-items:flex-end;
-  height:220px;
-  margin-bottom: 40px;
+  align-items:center;
 }
 .cockCardImage{
   display:flex;justify-content:center;align-items:center;height:360px;
@@ -73,12 +71,14 @@ button:focus-visible {
 
 .clipBg{
   clip-path: polygon(100% 0, 76% 100%, 44% 100%, 0 100%, 0 0);
-  /* background: rgb(2,0,36);
-background: linear-gradient(114deg, rgb(6, 0, 36) 50%, rgb(9, 73, 121)95%); */
-/* display:flex;justify-content:left;align-items:center; */
-padding: 0 80px;
-background-color: #272d2d;
-background-image: url('/Images/subtle-grunge.png');
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  justify-content:center;
+  gap:20px;
+  padding: 0 80px;
+  background-color: #272d2d;
+  background-image: url('/Images/subtle-grunge.png');
 }
 .ctaBg{
   background-image: url('/Images/allCansStraight.jpg');
@@ -88,7 +88,7 @@ background-image: url('/Images/subtle-grunge.png');
 .heroBg{
   /* background-image: url('/Images/heroBg.jpg'); */
   background-image: url('/Images/allCansStraight.jpg');
-  background-size: 56%;
+  background-size: auto 100%;
   background-repeat: no-repeat;
   background-position-x: right;
 }
@@ -155,11 +155,8 @@ background-image: url('/Images/subtle-grunge.png');
     position: fixed;
   }
   .heroBg{
-    background-size: 68%;
+    background-size: auto 100%;
     height: 340px;
-  }
-  .alignMiddle{
-    height: 215px;
   }
   .ReactModal__Content.ReactModal__Content--after-open {
     width: 75% !important;
@@ -171,7 +168,7 @@ background-image: url('/Images/subtle-grunge.png');
     width: 90% !important;
 }
   .namemarkLogo{
-    width: 90% !important;
+    width: 100% !important;
   }
   .whereToBuy{
     padding: 0px !important;
@@ -191,12 +188,9 @@ background-image: url('/Images/subtle-grunge.png');
     padding: 0px 40px 40px 34px !important;
   }
   .heroBg{
-    background-size: 100%;
+    background-size: auto 100%;
     height: 240px;
-    background-position-x: 160px;
-  }
-  .alignMiddle{
-    height: 120px;
+    background-position-x: right;
   }
   .cta-home{
     margin-bottom: 0px;
