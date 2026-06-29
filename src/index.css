@@ -89,7 +89,7 @@ button:focus-visible {
 }
 .heroBg {
   /* background-image: url('/Images/heroBg.jpg'); */
-  background-image: url("/Images/allCansStraight.jpg");
+  background-image: url("./assets/Images/2026/AllCans2026.png");
   background-size: 60% 100%;
   background-repeat: no-repeat;
   background-position-x: right;
