@@ -69,7 +69,7 @@ export default function CocktailCard(props) {
           <div className="cockCardDesc">
             <p className="mb-4 mt-6">{props.desc}</p>
             <button
-              className="mt-2 px-5 py-2 rounded-md border-2 border-gunmetal bg-gunmetal text-white uppercase text-sm hover:bg-transparent hover:text-gunmetal transition-colors"
+              className="mt-2 px-5 py-2 rounded-md border-2 border-gunmetal bg-gunmetal text-white uppercase text-sm  hover:text-gunmetal transition-colors hover:border-orange-200 hover:bg-orange-100"
               onClick={openModal}
             >
               Read More
