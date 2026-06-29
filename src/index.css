@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -12,7 +11,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #FFFAFB;
+  background-color: #fffafb;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,7 +21,7 @@
 
 a {
   font-weight: 500;
-  color: #23CE6B;
+  color: #23ce6b;
   text-decoration: inherit;
 }
 a:hover {
@@ -33,18 +32,21 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-.alignMiddle{
-  display:flex;
-  justify-content:left;
-  align-items:center;
+.alignMiddle {
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
-.cockCardImage{
-  display:flex;justify-content:center;align-items:center;height:360px;
+.cockCardImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 360px;
 }
-.cockCardDesc{
-  height:140px;
+.cockCardDesc {
+  height: 140px;
 }
-.verticalMiddle{
+.verticalMiddle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,30 +71,30 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.clipBg{
+.clipBg {
   clip-path: polygon(100% 0, 76% 100%, 44% 100%, 0 100%, 0 0);
-  display:flex;
-  flex-direction:column;
-  align-items:flex-start;
-  justify-content:center;
-  gap:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
   padding: 0 80px;
   background-color: #272d2d;
-  background-image: url('/Images/subtle-grunge.png');
+  background-image: url("/Images/subtle-grunge.png");
 }
-.ctaBg{
-  background-image: url('/Images/allCansStraight.jpg');
+.ctaBg {
+  background-image: url("/Images/allCansStraight.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-.heroBg{
+.heroBg {
   /* background-image: url('/Images/heroBg.jpg'); */
-  background-image: url('/Images/allCansStraight.jpg');
-  background-size: auto 100%;
+  background-image: url("/Images/allCansStraight.jpg");
+  background-size: 60% 100%;
   background-repeat: no-repeat;
   background-position-x: right;
 }
-.backdrop{
+.backdrop {
   top: 0;
   position: fixed;
   background-color: #1a1a1af0;
@@ -100,39 +102,39 @@ button:focus-visible {
   height: 100%;
   z-index: 999999;
 }
-.ageVerify{
+.ageVerify {
   width: 400px;
   padding: 20px;
   margin: auto;
-  background-color: #FFFAFB;
-  border-radius:8px;
+  background-color: #fffafb;
+  border-radius: 8px;
 }
-.footer{
+.footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  display:flex;
-  justify-content:center;
-  align-items:flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 .cta-home > .cta-btn {
   margin-top: 30px;
 }
 .map-overlay {
-  background:transparent;
-  position:relative;
-  height:480px; /* your iframe width */
-  width:100%; /* your iframe height */
-  top:480px; /* your iframe height */
-  margin-top:-480px; /* your iframe height */
-  }
-.hideOnMobile{
-  display:block !important;
+  background: transparent;
+  position: relative;
+  height: 480px; /* your iframe width */
+  width: 100%; /* your iframe height */
+  top: 480px; /* your iframe height */
+  margin-top: -480px; /* your iframe height */
 }
-.showOnMobile{
+.hideOnMobile {
+  display: block !important;
+}
+.showOnMobile {
   display: none !important;
 }
-.abv-number{
+.abv-number {
   font-size: 14px;
   padding: 8px;
   width: 100px;
@@ -140,61 +142,61 @@ button:focus-visible {
   background-color: antiquewhite;
   font-weight: 900;
   bottom: 206px;
-  margin:auto;
+  margin: auto;
   z-index: 99;
   transform: rotate(8deg);
 }
-@media screen and (max-width: 768px){
-  .hideOnMobile{
+@media screen and (max-width: 768px) {
+  .hideOnMobile {
     display: none !important;
   }
-  .showOnMobile{
+  .showOnMobile {
     display: block !important;
   }
-  .footer{
+  .footer {
     position: fixed;
   }
-  .heroBg{
+  .heroBg {
     background-size: auto 100%;
     height: 340px;
   }
   .ReactModal__Content.ReactModal__Content--after-open {
     width: 75% !important;
-}
+  }
 }
 
-@media screen and (max-width: 431px){
+@media screen and (max-width: 431px) {
   .ReactModal__Content.ReactModal__Content--after-open {
     width: 90% !important;
-}
-  .namemarkLogo{
+  }
+  .namemarkLogo {
     width: 100% !important;
   }
-  .whereToBuy{
+  .whereToBuy {
     padding: 0px !important;
     margin: 20px !important;
     height: 100% !important;
   }
-  .locationMap{
+  .locationMap {
     height: 600px !important;
   }
-  .hideOnMobile{
-    display:none !important;
+  .hideOnMobile {
+    display: none !important;
   }
-  .showOnMobile{
+  .showOnMobile {
     display: block !important;
   }
-  .clipBg{
+  .clipBg {
     padding: 0px 40px 40px 34px !important;
   }
-  .heroBg{
+  .heroBg {
     background-size: auto 100%;
     height: 240px;
     background-position-x: right;
   }
-  .cta-home{
+  .cta-home {
     margin-bottom: 0px;
-    padding-top:20px;
+    padding-top: 20px;
   }
   .cta-home > .cta-btn {
     margin-top: 30px;
@@ -207,7 +209,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #23CE6B;
+    color: #23ce6b;
   }
   button {
     background-color: #f9f9f9;
